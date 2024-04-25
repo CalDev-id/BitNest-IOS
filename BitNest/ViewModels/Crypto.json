@@ -1,24 +1,24 @@
 [
     {
-        "name": "BITCOIN",
-        "nickName": "BTC",
-        "value": 1403221,
-        "growth": 8.33,
-        "image": "btc"
-        
+        "name": "BINANCE",
+        "nickName": "BNB",
+        "price": 1223342,
+        "growth": 7.53,
+        "image": "bnb"
     },
     {
         "name": "ETHEREUM",
         "nickName": "ETH",
-        "value": 1223342,
+        "price": 1223342,
         "growth": 7.53,
         "image": "eth"
     },
     {
-        "name": "BINANCE",
-        "nickName": "BNB",
-        "value": 1223342,
-        "growth": 7.53,
-        "image": "bnb"
+        "name": "BITCOIN",
+        "nickName": "BTC",
+        "price": 1403221,
+        "growth": 8.33,
+        "image": "btc"
+        
     }
 ]

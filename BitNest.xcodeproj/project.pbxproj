@@ -15,6 +15,14 @@
 		2E4B3F352BCBB0C000CA491A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E4B3F342BCBB0C000CA491A /* Preview Assets.xcassets */; };
 		2E4B3F3F2BCBB15B00CA491A /* CryptoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4B3F3E2BCBB15B00CA491A /* CryptoModel.swift */; };
 		2E4B3F422BCBB1C300CA491A /* CryptoJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4B3F412BCBB1C300CA491A /* CryptoJSONDecoder.swift */; };
+		2E4F64292BCE347A007F4DEC /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F64282BCE347A007F4DEC /* TransactionModel.swift */; };
+		2E4F642B2BCE35A0007F4DEC /* TransactionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F642A2BCE35A0007F4DEC /* TransactionViewModel.swift */; };
+		2E4F642E2BCF891F007F4DEC /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F642D2BCF891F007F4DEC /* CustomTabBar.swift */; };
+		2E4F64302BCF8A64007F4DEC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F642F2BCF8A64007F4DEC /* MainView.swift */; };
+		2E4F64322BD61B73007F4DEC /* FetchAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F64312BD61B73007F4DEC /* FetchAPI.swift */; };
+		2E4F64342BD61B91007F4DEC /* CryptoAPIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F64332BD61B91007F4DEC /* CryptoAPIModel.swift */; };
+		2E4F64382BD63FDB007F4DEC /* APIFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F64372BD63FDB007F4DEC /* APIFetch.swift */; };
+		2E4F643C2BD8E090007F4DEC /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4F643B2BD8E090007F4DEC /* CameraView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +35,14 @@
 		2E4B3F342BCBB0C000CA491A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2E4B3F3E2BCBB15B00CA491A /* CryptoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoModel.swift; sourceTree = "<group>"; };
 		2E4B3F412BCBB1C300CA491A /* CryptoJSONDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoJSONDecoder.swift; sourceTree = "<group>"; };
+		2E4F64282BCE347A007F4DEC /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		2E4F642A2BCE35A0007F4DEC /* TransactionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionViewModel.swift; sourceTree = "<group>"; };
+		2E4F642D2BCF891F007F4DEC /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		2E4F642F2BCF8A64007F4DEC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		2E4F64312BD61B73007F4DEC /* FetchAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchAPI.swift; sourceTree = "<group>"; };
+		2E4F64332BD61B91007F4DEC /* CryptoAPIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAPIModel.swift; sourceTree = "<group>"; };
+		2E4F64372BD63FDB007F4DEC /* APIFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIFetch.swift; sourceTree = "<group>"; };
+		2E4F643B2BD8E090007F4DEC /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +97,12 @@
 		2E4B3F3B2BCBB0F900CA491A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2E4F642C2BCF88F4007F4DEC /* Components */,
 				2E4B3F2F2BCBB0BF00CA491A /* ContentView.swift */,
+				2E4F64312BD61B73007F4DEC /* FetchAPI.swift */,
+				2E4F643B2BD8E090007F4DEC /* CameraView.swift */,
+				2E4F64372BD63FDB007F4DEC /* APIFetch.swift */,
+				2E4F642F2BCF8A64007F4DEC /* MainView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -91,6 +112,8 @@
 			children = (
 				2E35F1042BCBB63E0073DF2E /* Crypto.json */,
 				2E35F1062BCBBC0C0073DF2E /* CryptoViewModel.swift */,
+				2E4F642A2BCE35A0007F4DEC /* TransactionViewModel.swift */,
+				2E4F64332BD61B91007F4DEC /* CryptoAPIModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -99,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				2E4B3F3E2BCBB15B00CA491A /* CryptoModel.swift */,
+				2E4F64282BCE347A007F4DEC /* TransactionModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -109,6 +133,14 @@
 				2E4B3F412BCBB1C300CA491A /* CryptoJSONDecoder.swift */,
 			);
 			path = JsonDecoder;
+			sourceTree = "<group>";
+		};
+		2E4F642C2BCF88F4007F4DEC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2E4F642D2BCF891F007F4DEC /* CustomTabBar.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,11 +214,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4F64292BCE347A007F4DEC /* TransactionModel.swift in Sources */,
+				2E4F64342BD61B91007F4DEC /* CryptoAPIModel.swift in Sources */,
+				2E4F643C2BD8E090007F4DEC /* CameraView.swift in Sources */,
+				2E4F64302BCF8A64007F4DEC /* MainView.swift in Sources */,
 				2E4B3F3F2BCBB15B00CA491A /* CryptoModel.swift in Sources */,
 				2E4B3F302BCBB0BF00CA491A /* ContentView.swift in Sources */,
+				2E4F64382BD63FDB007F4DEC /* APIFetch.swift in Sources */,
 				2E4B3F2E2BCBB0BF00CA491A /* BitNestApp.swift in Sources */,
+				2E4F642E2BCF891F007F4DEC /* CustomTabBar.swift in Sources */,
 				2E4B3F422BCBB1C300CA491A /* CryptoJSONDecoder.swift in Sources */,
 				2E35F1072BCBBC0C0073DF2E /* CryptoViewModel.swift in Sources */,
+				2E4F642B2BCE35A0007F4DEC /* TransactionViewModel.swift in Sources */,
+				2E4F64322BD61B73007F4DEC /* FetchAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +363,7 @@
 				DEVELOPMENT_TEAM = C59QF2W8P6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -352,6 +393,7 @@
 				DEVELOPMENT_TEAM = C59QF2W8P6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

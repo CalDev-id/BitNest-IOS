@@ -11,7 +11,7 @@ import SwiftData
 struct CryptoResponse: Codable {
     let name: String
     let nickName: String
-    let value: Int
+    let price: Int
     let growth: Double
     let image: String
 }

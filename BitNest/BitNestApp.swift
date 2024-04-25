@@ -14,9 +14,13 @@ struct BitNestApp: App {
     
     let container: ModelContainer
     let cryptoViewModel: CryptoViewModel
+    @StateObject var transactionViewModel = TransactionViewModel()
+    
+//    let cryptoapimodel: CryptoAPIModel
+
     
     init() {
-        let schema = Schema([CryptoModel.self/*, DeckModel.self*/])
+        let schema = Schema([CryptoModel.self, TransactionModel.self])
          do {
              container = try ModelContainer(for: schema)
          } catch {
@@ -27,15 +31,20 @@ struct BitNestApp: App {
         cryptoViewModel.preloadCrypto()
         
         print(URL.applicationSupportDirectory.path(percentEncoded: false))
+        
+//        await printData()
+
      }
 
     
     var body: some Scene {
         WindowGroup {
             NavigationView{
-                ContentView()
+//                ContentView(transactionViewModel: transactionViewModel)
+                MainView()
+////                APIFetch()//anime
+//                CameraView()
             }
-            .navigationViewStyle(StackNavigationViewStyle())
         }
         .modelContainer(container)
     }

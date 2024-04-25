@@ -29,7 +29,7 @@ class CryptoViewModel: ObservableObject {
                 let recipe = CryptoModel(
                     name: item.name,
                     nickName: item.nickName,
-                    value: item.value,
+                    price: item.price,
                     growth: item.growth,
                     image: item.image
                 )
